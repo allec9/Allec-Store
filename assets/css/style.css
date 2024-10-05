@@ -57,8 +57,11 @@ header {
     & .text {
         display: flex;
         flex-direction: column;
-        color: #fff;
-        gap: 17px;
+        width: Hug (473px)px;
+        height: Hug (120px)px;
+        gap: 16px;
+        opacity: 0px;
+
 
         & h1 {
             font-size: 48px;
@@ -83,16 +86,98 @@ header {
 }
 
 main {
-        .whyussection {
-            display: flex;
-            flex-direction: column;
-            gap: 60px;
-            background-color: #2E36F4;
-            align-items: center;
-            
-            
-    
+    .whyussection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: Hug (1, 280px)px;
+        height: Hug (487px)px;
+        top: 720px;
+        padding: 70px 182px 70px 182px;
+        gap: 60px;
+        opacity: 0px;
+
+        & div {
+            & h1 {
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 50.4px;
+                text-align: center;
+            }
+
+            & p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                text-align: center;
+            }
         }
-    
-    
+
+
+        & .cards {
+            display: flex;
+            width: 916px;
+            height: 167px;
+            gap: 83px;
+
+            & div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            & img {
+                display: flex;
+                flex-direction: column;
+                width: 94px;
+                height: 94px;
+            }
+
+            & p {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 26px;
+                text-align: center;
+
+            }
+
+        }
+
+    }
+
+
+}
+
+.genressection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: Hug (1, 280px)px;
+    height: Hug (323px)px;
+    top: 1207px;
+    padding: 40px 92px 40px 92px;
+    gap: 24px;
+    opacity: 0px;
+
+    & h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50.4px;
+        text-align: left;
+    }
+
+    & p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: right;
+    }
+
+    img {
+        display: flex;
+        width: Hug (1, 094px)px;
+        height: Hug (169px)px;
+        gap: 16px;
+    }
+
 }
