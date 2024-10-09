@@ -157,27 +157,31 @@ main {
     top: 1207px;
     padding: 40px 92px 40px 92px;
     gap: 24px;
-    opacity: 0px;
 
-    & h1 {
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 50.4px;
-        text-align: left;
-    }
-
-    & p {
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        text-align: right;
-    }
-
-    img {
+    & .genimage {
         display: flex;
-        width: Hug (1, 094px)px;
-        height: Hug (169px)px;
-        gap: 16px;
+
+        & h1 {
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 50.4px;
+            text-align: left;
+        }
+    
+        & p {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            text-align: right;
+        }
+    
+        img {
+            width: Hug (1, 094px)px;
+            height: Hug (169px)px;
+            gap: 16px;
+        }
     }
+
+    
 
 }
