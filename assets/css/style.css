@@ -20,7 +20,7 @@ header {
     padding: 16px 92px;
     padding-bottom: 244px;
 
-
+ 
     & nav {
         display: flex;
         justify-content: space-between;
@@ -150,18 +150,33 @@ main {
 
 .genressection {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 40px 92px 40px 92px;
+    gap: 24px;
+    
+    & .title {
+        display: flex;
+        justify-content: space-between;
+
+        & P {
+            margin-right: 75px;
+            margin-top: 23px;
+            color: #3B44F6;
+        }
+        
+    }
 
     & .genimages {
         
 
         & .container {
             display: flex;
+            gap: 16px;
 
             & .card {
-                width: 100px;
-                height: 100px;
+                width: 169px;
+                height: 169px;
                 background-color: red;
                 border-radius: 10px;
                 border: 1px solid black;
@@ -174,8 +189,26 @@ main {
                
             }
 
+            & .stardew {
+                background-image: url("../img/games-genre-section/stardew.svg");
+            }
+
+            & .halo {
+                background-image: url("../img/games-genre-section/hallo.svg");
+            }
+
             & .cyber {
                 background-image: url("../img/games-genre-section/cyberpunk.svg");
+            }
+
+            & .hearts {
+                background-image: url(../img/games-genre-section/valiant.svg);
+            }
+            & .witcher {
+                background-image: url(../img/games-genre-section/thewitcher.svg);
+            }
+            & .fifa {
+                background-image: url(../img/games-genre-section/fifa.svg);
             }
         }
     }
