@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none; 
     scroll-behavior: smooth;
 
 }
@@ -150,35 +150,33 @@ main {
 
 .genressection {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: Hug (1, 280px)px;
-    height: Hug (323px)px;
-    top: 1207px;
     padding: 40px 92px 40px 92px;
-    gap: 24px;
 
-    & .genimage {
-        display: flex;
+    & .genimages {
+        
 
-        & h1 {
-            font-size: 36px;
-            font-weight: 600;
-            line-height: 50.4px;
-            text-align: left;
-        }
-    
-        & p {
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 27px;
-            text-align: right;
-        }
-    
-        img {
-            width: Hug (1, 094px)px;
-            height: Hug (169px)px;
-            gap: 16px;
+        & .container {
+            display: flex;
+
+            & .card {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border-radius: 10px;
+                border: 1px solid black;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+               
+            }
+
+            & .cyber {
+                background-image: url("../img/games-genre-section/cyberpunk.svg");
+            }
         }
     }
 
